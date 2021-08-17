@@ -1,0 +1,9 @@
+'''''
+leer archivo csv
+'''''
+archivo = open("6.csv","r")
+lineas = archivo.readlines()
+registros =  []
+for linea in lineas:
+    registros.append(linea.split(","))
+print(registros)
